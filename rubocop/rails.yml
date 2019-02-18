@@ -1,0 +1,13 @@
+---
+inherit_from: ruby.yml
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+
+Rails:
+  Enabled: true
+
+Style/HashSyntax:
+  Exclude:
+    - "**/Rakefile"

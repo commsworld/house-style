@@ -1,0 +1,9 @@
+---
+AllCops:
+  TargetRailsVersion: 3.2
+
+Rails/ActionFilter:
+  Enabled: false
+
+Rails/DynamicFindBy:
+  Enabled: false

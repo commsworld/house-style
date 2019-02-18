@@ -1,0 +1,10 @@
+---
+require: rubocop-rspec
+inherit_from: ruby.yml
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*_spec.rb
+
+RSpec/ExampleLength:
+  Max: 10

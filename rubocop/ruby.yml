@@ -9,17 +9,17 @@ AllCops:
     - bin/*
     - script/*
 
-Layout/IndentArray:
+Layout/FirstArrayElementIndentation:
   Enabled: false
 
-Layout/IndentHash:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 120
 
 Lint/UnusedBlockArgument:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 120
 
 Style/Documentation:
   Enabled: false

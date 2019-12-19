@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.license  = "MIT"
   s.files    = Dir["**/*.yml"]
 
-  s.add_runtime_dependency "rubocop", "~> 0"
-  s.add_runtime_dependency "rubocop-rspec", "~> 0"
+  s.add_runtime_dependency "rubocop", "~> 0.78.0"
+  s.add_runtime_dependency "rubocop-rspec"
+  s.add_runtime_dependency "rubocop-rails"
 end

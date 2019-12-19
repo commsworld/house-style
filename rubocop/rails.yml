@@ -1,12 +1,11 @@
 ---
+require: rubocop-rails
 inherit_from: ruby.yml
 
 AllCops:
+  StyleGuideBaseURL: https://rails.rubystyle.guide
   Exclude:
     - db/schema.rb
-
-Rails:
-  Enabled: true
 
 Style/HashSyntax:
   Exclude:

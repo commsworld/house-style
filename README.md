@@ -11,7 +11,7 @@ Heavily influenced by [altimetric/house_style].
 Add this gem as a dependency to your project's `Gemfile`:
 
 ```ruby
-gem "commsworld-house-style", git: "https://github.com/commsworld/house-style"
+gem "commsworld-house-style", "~> 2.0", group: [:development, :test]
 ```
 
 And install:

@@ -1,5 +1,7 @@
 # House Style
 
+**⚠️ DEPRECATION WARNING:** This project has been replaced by [commsworld/rubocop-commsworld](https://github.com/commsworld/rubocop-commsworld) which has approximately the same opinions about rubocop settings, and additionally some custom cops.
+
 Be nice and consistent from project to project.
 
 This gem acts as a local repository for house style checkers for Ruby on Rails projects.
